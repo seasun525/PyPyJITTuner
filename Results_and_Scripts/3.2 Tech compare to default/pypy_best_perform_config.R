@@ -1,0 +1,46 @@
+library("rjson")
+library("effsize")
+
+result_root = ''
+benchmarks = c('update', 'plaintext')#('db', 'fortune', 'json')
+config_index = c(0,1,2,3,4,5,6,7,8,9,10)
+
+
+for(benchmark in 1:length(benchmarks)){
+  temp_matrix <- matrix(nrow = 11*2+1, ncol = 11)
+  #csv_data <- read.csv(file = paste(result_root, benchmarks[benchmark], '_performance_data.csv', sep=''), header=FALSE, stringsAsFactors = FALSE, sep=',')
+  
+  for(i in 1:11){
+    temp_vector = c()
+    for(j in 1:11){
+      csv_data1 <- read.csv(file = paste(result_root, benchmarks[benchmark], '_', i-1, '_response_time.csv', sep=''), header=FALSE, stringsAsFactors = FALSE, sep=',')
+      csv_data2 <- read.csv(file = paste(result_root, benchmarks[benchmark], '_', j-1, '_response_time.csv', sep=''), header=FALSE, stringsAsFactors = FALSE, sep=',')
+      
+      list_A <- as.numeric(csv_data1[[1]][-2000:-1])
+      list_B <- as.numeric(csv_data2[[1]][-2000:-1])
+      wilcox_sum <- wilcox.test(list_A, list_B, paired=FALSE)
+      temp_vector <- c(temp_vector, wilcox_sum$p.value)
+    }
+    temp_matrix[i, ]<-temp_vector
+  }
+  
+  temp_matrix[12, ] <- c(0,0,0,0,0,0,0,0,0,0,0)
+  for(i in 1:11){
+    temp_vector = c()
+    for(j in 1:11){
+      csv_data1 <- read.csv(file = paste(result_root, benchmarks[benchmark], '_', i-1, '_response_time.csv', sep=''), header=FALSE, stringsAsFactors = FALSE, sep=',')
+      csv_data2 <- read.csv(file = paste(result_root, benchmarks[benchmark], '_', j-1, '_response_time.csv', sep=''), header=FALSE, stringsAsFactors = FALSE, sep=',')
+
+      list_A <- as.numeric(csv_data1[[1]][-2000:-1])
+      list_B <- as.numeric(csv_data2[[1]][-2000:-1])
+      cliff <- cliff.delta(list_A, list_B)
+      temp_vector <- c(temp_vector, cliff$estimate)
+    }
+    temp_matrix[12+i, ]<-temp_vector
+  }
+  
+  write.csv(temp_matrix, file=paste(result_root, 'effect_size_matrix_', benchmarks[benchmark], '.csv'))
+}
+
+
+

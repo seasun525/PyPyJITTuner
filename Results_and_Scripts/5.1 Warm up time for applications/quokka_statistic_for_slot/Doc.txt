@@ -1,0 +1,4 @@
+Statistical analysis for quokka
+
+Duration: 3 hours
+Interval: 20 mins

@@ -1,0 +1,8 @@
+benchmark,best perform,highest jit
+ai,2,1
+bm_mako,2,2
+chaos,4,1
+django,3,1
+html5lib,1,1
+pidigits,2,1
+rietveld,3,1

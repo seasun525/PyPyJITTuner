@@ -1,0 +1,11 @@
+[2017-10-26 03:00:55 +0000] [1984] [INFO] Starting gunicorn 19.4.5
+[2017-10-26 03:00:55 +0000] [1984] [INFO] Listening at: http://0.0.0.0:8000 (1984)
+[2017-10-26 03:00:55 +0000] [1984] [INFO] Using worker: tornado
+[2017-10-26 03:00:55 +0000] [1990] [INFO] Booting worker with pid: 1990
+[2017-10-26 03:00:55 +0000] [1991] [INFO] Booting worker with pid: 1991
+[2017-10-26 03:00:55 +0000] [1992] [INFO] Booting worker with pid: 1992
+[2017-10-26 03:51:03 +0000] [1984] [INFO] Handling signal: term
+[2017-10-26 02:51:04 +0000] [1992] [INFO] Worker exiting (pid: 1992)
+[2017-10-26 02:51:04 +0000] [1991] [INFO] Worker exiting (pid: 1991)
+[2017-10-26 02:51:04 +0000] [1990] [INFO] Worker exiting (pid: 1990)
+[2017-10-26 03:51:04 +0000] [1984] [INFO] Shutting down: Master

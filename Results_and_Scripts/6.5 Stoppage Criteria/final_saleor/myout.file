@@ -1,0 +1,766 @@
+nohup: ignoring input
+0 : 0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1
+0 : 0,1,0,0,0,1,0,1,1,1,0,1,1,1,0,1,1,0
+0 : 1,0,1,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0
+0 : 1,1,0,0,1,0,0,0,0,1,0,0,1,0,1,0,1,1
+0 : 1,1,0,1,1,0,1,0,1,0,0,1,1,0,1,0,0,0
+0 : 0,0,1,1,1,1,0,1,0,1,1,1,0,1,1,1,1,1
+0 : 1,0,0,1,1,1,0,0,0,1,0,0,0,1,1,1,0,1
+0 : 0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0
+0 : 0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,0
+0 : 1,1,0,1,0,0,0,1,0,1,0,0,0,1,1,1,1,1
+0 : 1,1,0,1,0,0,0,1,1,0,1,1,1,0,1,1,0,1
+0 : 1,0,1,0,1,0,0,1,1,0,1,0,1,0,0,1,1,0
+0 : 1,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1
+0 : 1,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,1,1
+0 : 1,0,0,0,0,1,1,1,0,0,0,0,0,0,1,0,1,0
+0 : 1,1,1,0,1,0,1,1,0,0,1,1,1,1,1,0,1,1
+0 : 1,1,0,1,1,1,0,0,0,0,1,0,0,0,1,0,1,1
+0 : 1,0,0,0,0,1,1,0,0,1,0,1,0,0,1,0,0,1
+0 : 0,0,0,1,1,0,0,1,0,1,1,0,1,1,1,1,0,1
+0 : 0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,0,0
+0 : 1,1,1,0,0,0,0,1,0,0,0,1,1,1,0,1,0,1
+0 : 0,1,0,0,0,1,0,0,1,0,0,1,1,1,1,0,1,0
+0 : 1,1,1,0,1,0,0,0,1,0,0,1,1,0,1,0,1,0
+0 : 1,0,1,1,0,1,1,1,1,0,1,0,0,0,0,0,0,1
+0 : 0,1,0,0,0,1,0,1,1,0,1,1,1,0,1,1,0,0
+0 : 0,1,0,0,0,0,0,1,1,0,0,1,1,1,0,1,0,0
+0 : 0,0,0,0,0,1,1,0,1,0,1,0,0,1,0,1,1,0
+0 : 0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,1,1,0
+0 : 0,0,0,0,1,1,1,1,1,0,0,0,1,1,1,1,0,0
+0 : 1,0,0,0,1,1,0,1,0,1,1,0,1,1,0,1,0,0
+0 : 0,1,0,0,0,1,1,0,0,1,1,0,0,1,0,0,1,1
+0 : 0,0,1,1,1,0,1,1,1,1,0,0,1,1,0,0,0,0
+0 : 0,0,1,0,1,0,1,0,1,1,1,0,0,1,1,0,0,1
+0 : 1,0,0,0,0,0,1,0,1,0,0,0,1,1,1,0,0,0
+0 : 1,1,0,1,0,0,1,1,1,0,0,0,1,0,0,1,1,1
+0 : 0,1,1,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0
+0 : 0,0,1,0,0,1,0,1,0,1,0,1,0,1,1,1,1,1
+0 : 1,0,0,1,1,0,1,0,0,1,0,0,0,1,0,1,0,0
+0 : 1,1,0,1,1,1,1,0,0,0,0,1,1,0,0,1,0,1
+0 : 0,1,0,0,1,0,0,0,1,1,1,1,0,1,0,0,0,1
+40
+evaluating:011011011011011011
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 011011011011011011 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:010001011101110110
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 010001011101110110 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:101001011000001000
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 101001011000001000 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:001111010111011111
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 001111010111011111 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110010000100101011
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110010000100101011 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110110101001101000
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110110101001101000 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:010000000010000110
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 010000000010000110 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:000100000100001100
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 000100000100001100 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:100111000100011101
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 100111000100011101 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110100011011101101
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110100011011101101 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:101010011010100110
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 101010011010100110 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110100010100011111
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110100010100011111 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:100001110000001010
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 100001110000001010 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:100001111100001111
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 100001111100001111 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110000100000011011
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110000100000011011 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:100001100101001001
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 100001100101001001 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110111000010001011
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110111000010001011 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:111010110011111011
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 111010110011111011 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:000001110001100100
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 000001110001100100 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:111000010001110101
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 111000010001110101 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:000110010110111101
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 000110010110111101 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:111010001001101010
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 111010001001101010 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:101101111010000001
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 101101111010000001 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:010001001001111010
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 010001001001111010 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:010000011001110100
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 010000011001110100 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:000001101010010110
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 000001101010010110 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:010001011011101100
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 010001011011101100 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:001000010110000110
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 001000010110000110 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:100011010110110100
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 100011010110110100 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:000011111000111100
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 000011111000111100 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:010001100110010011
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 010001100110010011 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:001010101110011001
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 001010101110011001 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:001110111100110000
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 001110111100110000 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:011001111110000000
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 011001111110000000 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110100111000100111
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110100111000100111 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:100000101000111000
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 100000101000111000 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:100110100100010100
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 100110100100010100 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:001001010101011111
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 001001010101011111 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110111100001100101
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110111100001100101 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:010010001111010001
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 010010001111010001 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+Number of individuals already evaluated 0
+
+N is: 40
+=============================1
+[[1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0]]
+-----------------
+++++2
+=============================2
+[[1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1]]
+-----------------
+++++3
+=============================3
+[[1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1]]
+-----------------
+++++4
+=============================4
+[[1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0]]
+-----------------
+++++5
+=============================5
+[[1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1]]
+-----------------
+++++6
+=============================6
+[[1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1]]
+-----------------
+++++7
+[[0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0]]
+-----------------
+++++8
+=============================7
+=============================8
+[[0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1]]
+-----------------
+++++9
+[[0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0]]
+-----------------
+++++10
+[[1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1]]
+-----------------
+++++11
+[[1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0]]
+-----------------
+++++12
+=============================9
+=============================10
+[[1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0]]
+-----------------
+++++13
+=============================11
+=============================12
+[[1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0]]
+-----------------
+++++14
+[[1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0]]
+-----------------
+++++15
+=============================13
+[[1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1]]
+-----------------
+++++16
+=============================14
+[[1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1]]
+-----------------
+++++17
+=============================15
+[[1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1]]
+-----------------
+++++18
+=============================16
+=============================17
+=============================18
+[[0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0]]
+-----------------
+++++19
+[[0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1]]
+-----------------
+++++20
+=============================19
+[[0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1]]
+-----------------
+++++21
+[[0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0]]
+-----------------
+++++22
+[[1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1]]
+-----------------
+++++23
+=============================20
+[[0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0]]
+-----------------
+++++24
+[[0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1]]
+-----------------
+++++25
+=============================21
+=============================22
+=============================23
+[[1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1]]
+-----------------
+++++26
+=============================24
+[[0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0]]
+-----------------
+++++27
+[[0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0]]
+-----------------
+++++28
+=============================25
+=============================26
+[[1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0]]
+-----------------
+++++29
+=============================27
+=============================28
+=============================29
+[[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0]]
+-----------------
+++++30
+[[0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1]]
+-----------------
+++++31
+[[0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0]]
+-----------------
+++++32
+[[0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0]]
+-----------------
+++++33
+=============================30
+[[0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0]]
+-----------------
+++++34
+=============================31
+=============================32
+=============================33
+[[0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0]]
+-----------------
+++++35
+=============================34
+=============================35
+[[1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1]]
+-----------------
+++++36
+[[1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1]]
+-----------------
+++++37
+[[1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1]]
+-----------------
+++++38
+=============================36
+[[0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1]]
+-----------------
+++++39
+=============================37
+=============================38
+=============================39
+[[0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1]]
+-----------------
+++++40
+selected pop size40
+-- Generation 1 --
+TournamentDCD40
+offspring : 1,0,0,0,0,1,1,1,1,1,1,0,0,0,1,0,1,0
+offspring : 0,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0
+offspring : 1,1,1,1,0,1,1,1,1,0,0,0,1,0,0,1,0,1
+offspring : 1,0,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,1
+offspring : 0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0
+offspring : 1,1,0,1,1,1,1,1,0,0,0,1,1,0,1,0,1,1
+offspring : 1,1,0,1,0,1,0,1,1,0,0,0,1,0,0,1,1,1
+offspring : 1,0,0,0,1,0,1,1,0,1,1,0,1,1,0,1,0,0
+offspring : 1,1,0,1,1,1,1,0,0,0,0,1,1,0,0,1,0,1
+offspring : 0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,0
+offspring : 1,1,0,1,1,1,0,0,1,0,0,1,1,1,1,0,1,1
+offspring : 0,1,0,0,0,1,0,0,0,0,1,0,0,0,1,0,1,1
+offspring : 0,1,0,0,0,1,0,0,0,1,1,0,0,1,0,0,1,1
+offspring : 0,1,0,0,0,1,1,0,1,0,0,1,1,1,1,0,1,0
+offspring : 0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0
+offspring : 0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,1,0
+offspring : 1,0,0,1,1,1,0,0,0,1,0,0,0,1,1,1,0,1
+offspring : 1,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,1,1
+offspring : 1,0,1,0,1,0,0,1,1,0,1,0,1,0,0,1,1,0
+offspring : 1,1,0,1,0,0,0,1,0,1,0,0,0,1,1,1,1,1
+offspring : 0,0,1,1,1,0,1,1,1,1,0,0,1,1,0,0,0,0
+offspring : 1,0,1,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0
+offspring : 1,0,1,0,0,1,0,1,1,0,0,0,1,0,1,0,0,0
+offspring : 1,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0
+offspring : 1,0,0,0,0,0,1,0,1,0,0,0,1,1,1,0,0,0
+offspring : 0,0,0,0,0,1,1,0,1,0,1,0,0,1,0,1,1,0
+offspring : 1,1,1,0,0,1,1,1,1,1,1,0,0,0,0,0,1,1
+offspring : 0,1,1,0,1,0,1,1,0,0,1,1,1,1,1,0,0,0
+offspring : 1,1,0,1,0,0,0,1,1,0,1,1,0,0,1,1,0,1
+offspring : 0,1,1,0,1,1,0,1,1,0,1,1,1,1,1,0,1,1
+offspring : 1,1,0,0,0,0,1,0,1,1,1,0,0,1,1,0,1,1
+offspring : 0,0,1,0,1,0,1,0,0,0,0,0,0,1,1,0,0,1
+offspring : 0,1,1,0,0,1,0,1,1,0,0,1,1,0,0,1,0,0
+offspring : 1,1,0,0,0,0,0,1,0,0,0,1,1,1,0,1,0,1
+offspring : 1,1,0,1,1,0,1,0,1,0,0,1,1,0,1,0,0,0
+offspring : 0,1,0,0,0,1,0,1,1,0,1,1,1,0,1,1,0,0
+offspring : 1,1,0,1,1,0,1,0,1,0,0,1,1,0,1,0,1,1
+offspring : 1,1,0,0,1,0,0,0,0,1,0,0,1,0,1,0,0,0
+offspring : 1,1,0,0,1,0,0,0,0,1,0,0,1,1,1,0,1,1
+offspring : 0,0,0,0,1,1,1,1,1,0,0,0,1,0,1,1,0,0
+evaluating:011001110000000000
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 011001110000000000 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:111101111000100101
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 111101111000100101 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:100001111110001010
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 100001111110001010 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:000001000010000100
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 000001000010000100 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110111110001101011
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110111110001101011 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:101111100010000001
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 101111100010000001 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110101011000100111
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110101011000100111 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110111001001111011
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110111001001111011 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:100010110110110100
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 100010110110110100 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:010001000110010011
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 010001000110010011 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:010001000010001011
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 010001000010001011 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:010001101001111010
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 010001101001111010 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:000001110001100110
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 000001110001100110 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:010000000010000100
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 010000000010000100 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:101001011000101000
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 101001011000101000 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:111001111110000011
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 111001111110000011 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:100000101000011000
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 100000101000011000 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:011010110011111000
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 011010110011111000 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110100011011001101
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110100011011001101 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110000101110011011
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110000101110011011 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:011011011011111011
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 011011011011111011 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:011001011001100100
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 011001011001100100 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:001010100000011001
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 001010100000011001 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110000010001110101
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110000010001110101 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110010000100111011
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110010000100111011 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110110101001101011
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110110101001101011 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110010000100101000
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110010000100101000 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:000011111000101100
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 000011111000101100 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+Number of individuals already evaluated 2
+
+## 30
+N is: 40
+=============================1
+[[1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0]]
+-----------------
+++++3
+[[1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 1]]
+-----------------
+++++4
+[[1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1]]
+-----------------
+++++5
+=============================2
+=============================3
+=============================4
+[[1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1]]
+-----------------
+++++6
+[[1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1]]
+-----------------
+++++7
+=============================5
+[[1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1]]
+-----------------
+++++8
+=============================6
+=============================7
+[[1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0]]
+-----------------
+++++9
+=============================8
+[[1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0]]
+-----------------
+++++10
+[[1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1]]
+-----------------
+++++11
+=============================9
+[[0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1]]
+-----------------
+++++12
+=============================10
+=============================11
+[[1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1]]
+-----------------
+++++13
+=============================12
+[[1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0], [1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0]]
+-----------------
+++++15
+[[0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0]]
+-----------------
+++++16
+=============================13
+[[1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1]]
+-----------------
+++++17
+=============================14
+[[1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1]]
+-----------------
+++++18
+=============================15
+[[0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0], [0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0]]
+-----------------
+++++20
+=============================16
+[[1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1]]
+-----------------
+++++21
+=============================17
+=============================18
+[[0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1]]
+-----------------
+++++22
+[[0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0]]
+-----------------
+++++23
+[[1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1]]
+-----------------
+++++24
+[[0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0]]
+-----------------
+++++25
+[[1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0]]
+-----------------
+++++26
+=============================19
+[[1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0]]
+-----------------
+++++27
+=============================20
+[[1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1]]
+-----------------
+++++28
+=============================21
+[[1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0], [1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0]]
+-----------------
+++++30
+=============================22
+=============================23
+=============================24
+[[1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1]]
+-----------------
+++++31
+=============================25
+[[1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0]]
+-----------------
+++++32
+=============================26
+[[1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0]]
+-----------------
+++++33
+[[1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0]]
+-----------------
+++++34
+=============================27
+[[1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0]]
+-----------------
+++++35
+=============================28
+[[1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1]]
+-----------------
+++++36
+=============================29
+[[1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1]]
+-----------------
+++++37
+=============================30
+[[1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1]]
+-----------------
+++++38
+=============================31
+=============================32
+[[1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1]]
+-----------------
+++++39
+[[1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1]]
+-----------------
+++++40
+dom_A_B:	39.0
+dom_B_A:	38.0
+MDR:	0.025
+MDR is: 0.025
+Criteria 2: False
+Criteria 3: False
+Criteria 4: False
+-- Generation 2 --
+TournamentDCD40
+offspring : 1,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0
+offspring : 1,0,0,1,1,1,0,1,1,0,0,0,1,1,0,1,0,0
+offspring : 1,1,0,0,1,0,0,0,0,1,0,0,0,1,1,0,1,1
+offspring : 1,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0
+offspring : 1,0,0,0,1,0,1,1,0,1,1,0,1,1,0,1,0,0
+offspring : 1,0,1,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0
+offspring : 1,0,0,0,1,0,0,0,0,1,0,0,1,0,1,0,0,0
+offspring : 1,1,0,0,0,0,1,0,1,0,0,0,1,1,1,0,0,0
+offspring : 0,1,0,0,0,1,1,1,1,0,0,1,1,1,1,0,1,0
+offspring : 1,0,0,0,1,1,0,0,0,1,1,0,1,1,0,1,0,0
+offspring : 1,1,0,1,0,0,0,1,1,0,1,1,0,0,1,1,0,1
+offspring : 1,1,0,1,1,1,1,1,0,0,0,1,1,0,1,0,1,1
+offspring : 0,1,0,0,0,1,0,0,1,0,0,1,1,0,1,0,1,0
+offspring : 1,1,1,0,1,0,0,0,1,0,0,1,1,1,1,0,1,0
+offspring : 1,1,0,1,1,0,1,0,1,0,1,0,0,0,1,0,0,0
+offspring : 1,1,0,1,1,1,0,0,0,0,0,1,1,0,1,0,1,1
+offspring : 1,0,1,1,1,0,1,0,1,0,0,1,1,0,1,0,1,1
+offspring : 1,1,0,1,1,1,1,0,0,0,1,0,0,0,0,0,0,1
+offspring : 1,1,1,0,1,1,0,1,1,0,1,1,1,1,0,1,0,1
+offspring : 0,1,1,0,0,0,0,1,0,0,0,1,1,1,1,0,1,1
+offspring : 1,1,0,1,1,1,0,0,0,0,1,0,0,0,1,0,1,1
+offspring : 1,0,0,0,0,1,1,1,1,1,1,0,0,0,1,0,1,0
+offspring : 1,1,1,1,0,1,1,1,1,0,0,0,1,0,0,1,0,1
+offspring : 1,1,0,1,0,0,0,1,1,0,1,1,1,1,1,1,0,1
+offspring : 1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1
+offspring : 1,0,1,1,0,1,1,1,1,0,1,0,1,1,1,0,1,1
+offspring : 1,0,0,0,0,1,0,0,1,0,0,1,1,1,1,0,1,0
+offspring : 0,1,0,0,0,1,1,1,1,1,1,0,0,0,1,0,1,0
+offspring : 1,1,0,1,1,0,1,1,1,0,0,1,1,0,1,0,0,0
+offspring : 1,1,1,0,1,0,1,0,0,0,1,1,1,1,1,0,1,1
+offspring : 1,0,0,0,1,0,1,0,1,0,0,1,1,0,1,0,1,0
+offspring : 1,1,0,1,1,1,0,1,0,1,1,0,1,1,0,1,0,1
+offspring : 1,0,0,0,0,0,1,0,1,0,0,0,1,1,1,0,0,0
+offspring : 0,1,1,0,1,0,1,1,0,0,1,1,1,1,1,0,0,0
+offspring : 1,1,0,1,1,1,0,0,1,0,0,0,1,1,1,0,1,1
+offspring : 1,1,0,0,1,0,0,0,0,1,0,1,1,1,1,0,1,1
+offspring : 0,1,0,0,0,0,0,1,1,0,1,1,0,1,1,0,1,1
+offspring : 1,1,1,0,1,1,0,1,0,0,0,1,1,1,0,1,0,1
+offspring : 1,1,1,0,1,0,1,1,0,0,0,1,1,1,0,0,1,1
+offspring : 1,1,0,0,0,0,0,1,0,0,1,1,1,1,1,1,0,1
+evaluating:110010000100011011
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110010000100011011 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:101000100100001000
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 101000100100001000 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:100111011000110100
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 100111011000110100 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:100000101000101000
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 100000101000101000 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:100010000100101000
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 100010000100101000 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110000101000111000
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110000101000111000 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:010001001001101010
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 010001001001101010 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:100011000110110100
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 100011000110110100 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:010001111001111010
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 010001111001111010 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110111000001101011
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110111000001101011 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110110101010001000
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110110101010001000 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:111010001001111010
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 111010001001111010 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:111011011011110101
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 111011011011110101 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110111100010000001
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110111100010000001 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:101110101001101011
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 101110101001101011 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110010000100000001
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110010000100000001 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:011000010001111011
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 011000010001111011 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110100011011111101
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110100011011111101 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:010001111110001010
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 010001111110001010 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:100001001001111010
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 100001001001111010 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:101101111010111011
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 101101111010111011 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:100010101001101010
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 100010101001101010 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:111010100011111011
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 111010100011111011 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110110111001101000
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110110111001101000 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110010000101111011
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110010000101111011 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110111001000111011
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110111001000111011 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110111010110110101
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110111010110110101 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:010000011011011011
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 010000011011011011 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:111011010001110101
+ssh seasun@130.63.97.211 'ALLOWED_HOSTS="130.63.97.211" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 111011010001110101 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:111010110001110011
+ssh seasun@130.63.97.206 'ALLOWED_HOSTS="130.63.97.206" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 111010110001110011 130.63.97.154 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+evaluating:110000010011111101
+ssh seasun@130.63.97.218 'ALLOWED_HOSTS="130.63.97.218" SECRET_KEY="308159" pypy /home/seasun/GA/client_scripts/run_test.py 110000010011111101 130.63.97.161 > /home/seasun/GA/results/temp/run_test.log 2>&1' 
+Number of individuals already evaluated 1
+
+## 32
+N is: 40
+=============================1
+[[1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 1], [1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 1]]
+-----------------
+++++5
+=============================2
+[[1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0]]
+-----------------
+++++6
+[[1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1]]
+-----------------
+++++7
+=============================3
+=============================4
+[[1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0]]
+-----------------
+++++8
+=============================5
+=============================6
+[[1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1]]
+-----------------
+++++9
+[[1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1]]
+-----------------
+++++10
+[[1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1]]
+-----------------
+++++11
+=============================7
+[[1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1]]
+-----------------
+++++12
+=============================8
+[[1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1]]
+-----------------
+++++13
+[[1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1]]
+-----------------
+++++14
+=============================9
+=============================10
+[[1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 1]]
+-----------------
+++++15
+=============================11
+[[1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1]]
+-----------------
+++++16
+=============================12
+[[1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0]]
+-----------------
+++++17
+=============================13
+[[1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0]]
+-----------------
+++++18
+=============================14
+[[1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1]]
+-----------------
+++++19
+=============================15
+=============================16
+[[1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0]]
+-----------------
+++++20
+[[1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0]]
+-----------------
+++++21
+[[1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0]]
+-----------------
+++++22
+=============================17
+[[1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1]]
+-----------------
+++++23
+[[1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 1]]
+-----------------
+++++24
+=============================18
+=============================19
+=============================20
+[[0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1]]
+-----------------
+++++25
+=============================21
+=============================22
+[[1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0]]
+-----------------
+++++26
+=============================23
+[[1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0], [1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0], [1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0]]
+-----------------
+++++29
+=============================24
+[[1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1]]
+-----------------
+++++30
+[[1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0]]
+-----------------
+++++31
+[[1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0]]
+-----------------
+++++32
+=============================25
+[[0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0], [0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0]]
+-----------------
+++++34
+=============================26
+[[1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1], [1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1]]
+-----------------
+++++36
+[[0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0], [0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0]]
+-----------------
+++++38
+=============================27
+[[1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1]]
+-----------------
+++++39
+=============================28
+=============================29
+=============================30
+[[1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1]]
+-----------------
+++++40
+dom_A_B:	38.0
+dom_B_A:	37.0
+MDR:	0.025
+MDR is: 0.025
+Criteria 2: True
+Criteria 3: True
+Criteria 4: True

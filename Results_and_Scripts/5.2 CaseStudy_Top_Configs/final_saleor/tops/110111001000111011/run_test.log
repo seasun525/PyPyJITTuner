@@ -1,0 +1,11 @@
+[2017-10-27 11:33:56 +0000] [2068] [INFO] Starting gunicorn 19.4.5
+[2017-10-27 11:33:56 +0000] [2068] [INFO] Listening at: http://0.0.0.0:8000 (2068)
+[2017-10-27 11:33:56 +0000] [2068] [INFO] Using worker: tornado
+[2017-10-27 11:33:56 +0000] [2074] [INFO] Booting worker with pid: 2074
+[2017-10-27 11:33:56 +0000] [2075] [INFO] Booting worker with pid: 2075
+[2017-10-27 11:33:56 +0000] [2076] [INFO] Booting worker with pid: 2076
+[2017-10-27 12:24:04 +0000] [2068] [INFO] Handling signal: term
+[2017-10-27 11:24:05 +0000] [2076] [INFO] Worker exiting (pid: 2076)
+[2017-10-27 11:24:05 +0000] [2074] [INFO] Worker exiting (pid: 2074)
+[2017-10-27 11:24:05 +0000] [2075] [INFO] Worker exiting (pid: 2075)
+[2017-10-27 12:24:05 +0000] [2068] [INFO] Shutting down: Master

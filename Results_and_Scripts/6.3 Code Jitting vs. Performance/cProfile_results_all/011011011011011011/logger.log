@@ -1,0 +1,9 @@
+02-22 13:33 root         INFO     Start load test for config: 011011011011011011
+02-22 13:33 root         INFO     Workload is generated from: 130.63.97.154
+02-22 13:33 root         INFO     Starting application with:
+02-22 13:33 root         INFO     /home/seasun/Programs/PyPy/pypy2-v5.7.1-linux64/bin/pypy  --jit off  /home/seasun/Programs/PyPy/pypy2-v5.7.1-linux64/bin/gunicorn -pid=gunicorn.pid saleor.wsgi:application --workers 3 --timeout 60000 -c gunicorn_conf.py --env DJANGO_DB=mysql > /home/seasun/GA/results/temp/gunicorn.log
+02-22 13:33 root         INFO     Start work load with:
+02-22 13:33 root         INFO     ssh hdp@130.63.97.154 /home/hdp/GA/jmeter/apache-jmeter-3.0/bin/jmeter -n -t /home/hdp/GA/jmeter/apache-jmeter-3.0/my_test_plan_scale06.jmx > /home/seasun/GA/results/temp/load_test.log
+02-22 13:34 root         INFO     Sleep 3000 for test...
+02-22 14:24 root         INFO     Stoping the application
+02-22 14:27 root         INFO     Restore the results
