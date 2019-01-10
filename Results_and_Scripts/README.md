@@ -1,6 +1,5 @@
 SETUP
 ==================
-
 This part contains the results and parsing scripts for empirical study (from 3.1 to 3.3) and case study (from 5.1 to 6.5)
 
 To re-run the results, we need to firstly setup the python and R environment:
